@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: small;
+}
+
+/*SET WIDTH*/
+.abc, .G    {width: 22%;}
+  .A, .B, .C  {width: 100%;}
+.D, .H, .J  {width: 3%;}
+.E          {width: 75%;}
+.F          {width: 100%;}
+.I          {width: 62%;}
+.klm        {width: 10%;}
+  .K, .L, .M  {width: 100%;}
+.painting   {width: 98%;  min-width: 196px;  max-width: 980px;}
+
+/*SET HEIGHT*/
+.abc, .D, .E{height: 69%;}
+  .A {height: 40%;}
+  .B {height: 8%;}
+  .C {height: 52%;}
+.F {height: 3%;}
+.G, .H, .I, .J, .klm {height: 24%;}
+  .K {height: 38%}
+  .L {height: 20%}
+  .M {height: 42%}
+.painting   {height: 96vh;  min-height: 196px;  max-height: 588px;}
+
+/*SET COLOR*/
+.A, .C, .I, .K {background-color: #DDD;}
+.B, .D, .F, .H, .J, .L {background-color: #000; color: #DDD;}
+.E {background-color: red;}
+.G {background-color: blue;}
+.M {background-color: yellow;}
+
+/*INLINE BLOCK*/
+.abc, .D, .E, .G, .H, .I, .J, .klm {
+  display: inline-block;
+  vertical-align: middle;
+}
