@@ -17,7 +17,7 @@ html {
 .I          {width: 62%;}
 .klm        {width: 10%;}
   .K, .L, .M  {width: 100%;}
-.painting   {width: 98%;  min-width: 196px;  max-width: 980px;}
+.painting   {width: 98%;  min-width: 196px;}
 
 /*SET HEIGHT*/
 .abc, .D, .E{height: 69%;}
@@ -29,7 +29,7 @@ html {
   .K {height: 38%}
   .L {height: 20%}
   .M {height: 42%}
-.painting   {height: 96vh;  min-height: 196px;  max-height: 588px;}
+.painting   {height: 96vh;  min-height: 196px;}
 
 /*SET COLOR*/
 .A, .C, .I, .K {background-color: #DDD;}
