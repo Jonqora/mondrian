@@ -8,6 +8,11 @@ html {
   font-size: small;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /*SET WIDTH*/
 .abc, .G    {width: 22%;}
   .A, .B, .C  {width: 100%;}
@@ -17,7 +22,7 @@ html {
 .I          {width: 62%;}
 .klm        {width: 10%;}
   .K, .L, .M  {width: 100%;}
-.painting   {width: 98%;  min-width: 196px;}
+.painting   {width: 100%;  min-width: 196px;}
 
 /*SET HEIGHT*/
 .abc, .D, .E{height: 69%;}
@@ -29,7 +34,7 @@ html {
   .K {height: 38%}
   .L {height: 20%}
   .M {height: 42%}
-.painting   {height: 96vh;  min-height: 196px;}
+.painting   {height: 100vh;  min-height: 196px;}
 
 /*SET COLOR*/
 .A, .C, .I, .K {background-color: #DDD;}
